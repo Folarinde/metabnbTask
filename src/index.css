@@ -402,13 +402,16 @@ hr{
   .navbar{
     padding: 16px;
   }
+  .midbar{
+    margin: 0;
+  }
   .topcontent{
     padding: 16px;
     margin: 0;
   }
   .eightCards, .cardList{
     padding: 0 16px;
-    margin: 24px 0;
+    margin: 0;
   }
   .cardDisplay{
     justify-content: center;
@@ -417,6 +420,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
     background-color: #A02279;
+    margin: 0;
   }
   .textdiv{
     margin: 64px 0 0 0;
