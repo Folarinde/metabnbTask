@@ -388,15 +388,15 @@ hr{
   border: 1px solid #CFD8DC;
 }
 
-@media (max-width: 375px){
+@media (max-width: 380px){
   .navbar{
-    padding: 20px;
+    padding: 16px;
   }
   .topcontent{
-    margin: 20px;
+    margin: 16px;
   }
   .eightCards, .cardList{
-    margin: 20px;
+    margin: 16px;
   }
   .cardDisplay{
     justify-content: center;
@@ -413,7 +413,7 @@ hr{
   .picdiv{
     width: 300px;
     height: 320px;
-    margin: 65px;
+    margin: 72px;
   }
   #fi, #si, #ti{
     width: 70%;
@@ -437,10 +437,10 @@ hr{
     padding: 8px;
   }
   #grid{
-    grid-template-columns: 168px 168px;
+    grid-template-columns: 164px 164px;
   }
   #firstcol, #secondcol{
-    width: 164px;
+    width: 160px;
     margin: 0;
   }
   #firstcol img{
