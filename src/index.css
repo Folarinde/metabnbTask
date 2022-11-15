@@ -71,7 +71,7 @@ nav{
   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
   border: 1px solid #D7D7D7;
   border-radius: 15px;
-  margin: 12px;
+  margin: 12px 0;
 }
 div > span{
   font-weight: 400;
@@ -81,10 +81,19 @@ div > span{
 #span{
   font-weight: 700;
 }
-.cardList, .cardDisplay{
+.cardList{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin: 48px 64px;
+}
+.cardDisplay{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin: 0;
+  padding: 0;
+}
+.eightCards{
+  margin: 24px 64px;
 }
 .eightCards > h2{
   text-align: center;
@@ -396,8 +405,8 @@ hr{
     margin: 0;
   }
   .eightCards, .cardList{
-    padding: 16px;
-    margin: 0;
+    padding: 0 16px;
+    margin: 24px 0;
   }
   .cardDisplay{
     justify-content: center;
