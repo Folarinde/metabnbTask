@@ -1,14 +1,18 @@
-// import logo from './logo.svg';
 import Airbnb from './Airbnb';
 import './App.css';
-// import PlaceToStay from './PlaceToStay';
+import PlaceToStay from './PlaceToStay';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Airbnb />
-      {/* <PlaceToStay /> */}
-    </div>
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route path="/" element={<Airbnb />} />
+          <Route path="/PlaceToStay" element={<PlaceToStay />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

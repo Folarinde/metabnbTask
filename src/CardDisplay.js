@@ -4,7 +4,7 @@ import { frames } from './Frames';
 
 export default function CardDisplay() {
   return (
-    <div>
+    <div className="eightCards">
       <h2>Inspiration for your next adventure</h2>
       <div className="cardDisplay">
         <Cards id={frames[4]} />

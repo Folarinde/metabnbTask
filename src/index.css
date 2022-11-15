@@ -23,9 +23,13 @@ code {
   padding: 40px 76px;
   justify-content: space-between;
   align-items: center;
+  background: #FFFFFF;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 nav > a{
-  padding: 0 40px 12px 0;
+  padding: 0 40px 0 0;
   text-decoration: none;
   color: #434343;
   font-size: 20px;
@@ -47,6 +51,7 @@ nav{
   font-size: 16px;
   line-height: 20px;
   margin: 12px 0;
+  cursor: pointer;
 }
 .midbar{
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
@@ -81,13 +86,16 @@ div > span{
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin: 48px 64px;
 }
+.eightCards > h2{
+  text-align: center;
+}
 #rating{
   display: flex;
   justify-self: left;
   margin: 8px 0 0 16px;
 }
 .cards > img{
-  padding: 16px 0 0 0;
+  padding: 16px 0 0 16px;
 }
 .cardtext{
   display: flex;
@@ -98,13 +106,17 @@ div > span{
 .topcontent{
   display: flex;
   flex-wrap: wrap-reverse;
-  margin: 72px 100px 68px;
+  margin: 72px 80px 68px;
 }
 #textandsearch{
   text-align: left;
   max-width: 636px;
+  margin-right: 72px;
 }
-#textandsearch > h1 p{
+#textandsearch > h1{
+  margin: 24px 0;
+}
+#textandsearch > p{
   margin: 24px 0;
 }
 h1{
@@ -124,22 +136,27 @@ p{
   line-height: 35px;
   color: #434343;
 }
+.search{
+  display: flex;
+  align-items: center;
+}
 .search > input{
   font-family: 'Red Rose';
   background: rgba(247, 247, 247, 0.1);
   border: 1px solid #A3A3A3;
   border-radius: 8px 0px 0px 8px;
-  width: 360px;
-  min-width: 300px;
+  width: 66%;
+  min-width: 220px;
   height: 54px;
   padding-left: 16px;
+  margin: 24px 0;
 }
 #search{
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
   border-radius: 0px 8px 8px 0px;
-  width: 130px;
+  width: 33%;
   min-width: 60px;
-  height: 58px;
+  height: 56px;
   border: none;
   color: #FFFFFF;
   font-weight: 400;
@@ -153,17 +170,17 @@ p{
   display: grid;
   gap: 0 4px;
   grid-template-columns: 235px 235px;
-  margin: 24px 0 0 28px;
+  margin: 24px 0 0;
 }
 .prefooter{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   background-color: #A02279;
 }
 .picdiv{
   width: 640px;
   height: 524px;
-  margin: 80px 0;
+  margin: 80px;
   position: relative;
 }
 #fi{
@@ -186,7 +203,7 @@ p{
 }
 .textdiv{
   text-align: left;
-  margin: 80px;
+  margin: 80px 0 0 80px;
 }
 .textdiv>p{
   width: 80%;
@@ -344,6 +361,9 @@ h2{
   font-size: 24px;
   line-height: 30px;
   color: #333333;
+}
+.connect > img{
+  cursor: pointer;
 }
 .meta{
   display: flex;

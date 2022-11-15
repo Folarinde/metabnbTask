@@ -13,17 +13,11 @@ export default function Navbar() {
     setModal(!modal);
   };
 
-  if (modal) {
-    document.body.classList.add('active-modal');
-  } else {
-    document.body.classList.remove('active-modal');
-  }
-
   return (
     <div className="navbar">
       <img src={Logo} alt="logo" />
       <nav>
-        <a href="./Airbnb">Home</a>
+        <a href="./">Home</a>
         <a href="./PlaceToStay">Place to stay</a>
         <a href="#NFTs">NFTs</a>
         <a href="#Community">Community</a>
