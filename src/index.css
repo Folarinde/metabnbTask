@@ -60,7 +60,6 @@ nav{
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 0 80px;
 }
 .midbar > img{
   margin: 8px 0;
@@ -85,7 +84,8 @@ div > span{
 .cardList, .cardDisplay{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  margin: 48px 64px;
+  margin: 48px 0;
+  padding: 0 64px;
 }
 .eightCards > h2{
   text-align: center;
@@ -403,7 +403,7 @@ hr{
   }
   .prefooter{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     background-color: #A02279;
   }
   .textdiv{
