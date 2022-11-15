@@ -29,7 +29,7 @@ code {
   z-index: 5;
 }
 nav > a{
-  padding: 0 40px 0 0;
+  padding: 12px 40px 0 0;
   text-decoration: none;
   color: #434343;
   font-size: 20px;
@@ -59,7 +59,7 @@ nav{
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 0 100px;
+  padding: 0 80px;
 }
 .midbar > img{
   margin: 8px 0;
@@ -146,7 +146,7 @@ p{
   border: 1px solid #A3A3A3;
   border-radius: 8px 0px 0px 8px;
   width: 66%;
-  min-width: 220px;
+  min-width: 260px;
   height: 54px;
   padding-left: 16px;
   margin: 24px 0;
@@ -155,7 +155,7 @@ p{
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
   border-radius: 0px 8px 8px 0px;
   width: 33%;
-  min-width: 60px;
+  min-width: 80px;
   height: 56px;
   border: none;
   color: #FFFFFF;
@@ -386,5 +386,75 @@ h2{
 }
 hr{
   border: 1px solid #CFD8DC;
+}
 
+@media (max-width: 375px){
+  .navbar{
+    padding: 20px;
+  }
+  .topcontent{
+    margin: 20px;
+  }
+  .eightCards, .cardList{
+    margin: 20px;
+  }
+  .cardDisplay{
+    justify-content: center;
+  }
+  .prefooter{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    background-color: #A02279;
+  }
+  .textdiv{
+    margin: 80px 0 0 20px;
+    justify-content: center;
+  }
+  .picdiv{
+    width: 300px;
+    height: 320px;
+  }
+  #fi, #si, #ti{
+    width: 70%;
+  }
+  #fi{
+    right: 32px;
+    top: 0;
+  }
+  #si{
+    right: 140px;
+    top: 90px;
+  }
+  #ti{
+    right: 40px;
+    top: 130px;
+  }
+  #logocol{
+    margin: 12px 0;
+  }
+  .footerlinks{
+    padding: 8px;
+  }
+  #grid{
+    grid-template-columns: 168px 168px;
+  }
+  #firstcol, #secondcol{
+    width: 164px;
+    margin: 0;
+  }
+  #firstcol img{
+    width: 100%;
+  }
+  #secondcol img{
+    width: 100%;
+  }
+  #aux{
+    margin: 16px;
+  }
+  .connectWallet{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    width: 340px;
+  }
 }
