@@ -401,6 +401,7 @@ hr{
 @media (max-width: 375px){
   .navbar{
     padding: 16px;
+    margin: 0;
   }
   .midbar{
     margin: 0;
@@ -408,6 +409,9 @@ hr{
   .topcontent{
     padding: 16px;
     margin: 0;
+  }
+  #textandsearch{
+    margin-right: 0;
   }
   .eightCards, .cardList{
     padding: 0 16px;
