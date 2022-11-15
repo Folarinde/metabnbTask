@@ -84,8 +84,7 @@ div > span{
 .cardList, .cardDisplay{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  margin: 48px 0;
-  padding: 0 64px;
+  margin: 48px 64px;
 }
 .eightCards > h2{
   text-align: center;
@@ -175,7 +174,7 @@ p{
 }
 .prefooter{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(496px, 1fr));
   background-color: #A02279;
 }
 .picdiv{
@@ -393,10 +392,12 @@ hr{
     padding: 16px;
   }
   .topcontent{
-    margin: 16px;
+    padding: 16px;
+    margin: 0;
   }
   .eightCards, .cardList{
-    margin: 16px;
+    padding: 16px;
+    margin: 0;
   }
   .cardDisplay{
     justify-content: center;
