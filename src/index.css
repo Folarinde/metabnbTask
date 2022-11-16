@@ -398,7 +398,42 @@ hr{
   border: 1px solid #CFD8DC;
 }
 
-@media (max-width: 375px){
+@media (max-width: 980px){
+  .connectWallet{
+    position: absolute;
+    top: 200px;
+    left: 64px;
+  }
+}
+
+@media (max-width: 800px){
+  .connectWallet{
+    width: 448px;
+  }
+  .picdiv{
+    width: 500px;
+    height: 420px;
+    margin: 64px 0;
+    padding: 0 4px;
+  }
+  #fi, #si, #ti{
+    width: 70%;
+  }
+  #fi{
+    right: -40px;
+    top: 0;
+  }
+  #si{
+    right: 28px;
+    top: 90px;
+  }
+  #ti{
+    right: -32px;
+    top: 130px;
+  }
+}
+
+@media (max-width: 565px){
   .navbar{
     padding: 16px;
     margin: 0;
@@ -478,7 +513,7 @@ hr{
   }
   .connectWallet{
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 20px;
     width: 324px;
   }
