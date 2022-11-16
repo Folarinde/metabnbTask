@@ -410,30 +410,45 @@ hr{
   .connectWallet{
     width: 448px;
   }
+  .navbar{
+    padding: 36px;
+    margin: 0;
+  }
+  .topcontent{
+    padding: 36px;
+    margin: 0;
+  }
+  #textandsearch{
+    margin-right: 0;
+  }
+  .eightCards, .cardList{
+    padding: 0 36px;
+    margin: 0;
+  }
   .picdiv{
     width: 500px;
     height: 420px;
-    margin: 64px 0;
+    margin: 48px 0;
     padding: 0 4px;
   }
   #fi, #si, #ti{
-    width: 70%;
+    width: 65%;
   }
   #fi{
-    right: -40px;
+    right: 0;
     top: 0;
   }
   #si{
-    right: 28px;
-    top: 90px;
+    right: 168px;
+    top: 120px;
   }
   #ti{
-    right: -32px;
-    top: 130px;
+    right: -40px;
+    top: 190px;
   }
 }
 
-@media (max-width: 575px){
+@media (max-width: 565px){
   .navbar{
     padding: 16px;
     margin: 0;
