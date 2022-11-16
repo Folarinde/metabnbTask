@@ -433,7 +433,7 @@ hr{
   }
 }
 
-@media (max-width: 565px){
+@media (max-width: 575px){
   .navbar{
     padding: 16px;
     margin: 0;
